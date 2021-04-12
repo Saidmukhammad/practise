@@ -16,6 +16,7 @@
 .header {
     background: url(../images/headerbg.jpg) no-repeat center /cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .header__menu {
@@ -36,4 +37,19 @@
 
 .header__menu-link:hover {
     color: #2b6ccd;
+}
+
+
+.main{
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 100px;
+    box-shadow: 0 0 50px 50px gray;
 }
